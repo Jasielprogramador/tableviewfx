@@ -35,11 +35,12 @@ mainClassName = "$moduleName/ehu.isad.Main"
 
 javafx {
     version = "12"
-    modules = [ ]
+    modules = modules = [ 'javafx.graphics', 'javafx.fxml', 'javafx.controls','javafx.swing']
 }
 
 dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
+
 }
 
 repositories {
